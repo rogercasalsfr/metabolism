@@ -12,7 +12,7 @@ Cobratoolbox: link
 Cplex solver: link
 Matlab (2019b)
 
-Analysis of RNA-seq. 
+Analysis of RNA-seq using decoupler
 
 Analysis of the models using cobra-py
 
