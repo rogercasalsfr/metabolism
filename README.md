@@ -4,6 +4,7 @@ Metabolic reconstruction of RNA-seq data from different patients treated with se
 Usage of tximport to get counts: 
 (rounded) , you can also get TPMs
 
+We then corrected the counts for batches using CombatSeq. 
 
 Usage of Fastcormics: 
 https://github.com/sysbiolux/rFASTCORMICS
