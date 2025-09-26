@@ -44,14 +44,13 @@ addpath(genpath(pwd)) % add all subfolders to path in the current dicrectory.
 
 feature astheightlimit 2000      
 
-
+% Add paths from cobratoolbox and CPLEX already installed
 addpath(genpath("/opt/ibm/ILOG/CPLEX_Studio1210/cplex/matlab/x86-64_linux/"))     
 addpath("/home/claudia/cobratoolbox/")   
 initCobraToolbox(false)  
 addpath(genpath("/home/claudia/rFASTCORMICS/"))
 
-
-
+% Add data (matrix of TPM values)
 data = readtable('DESeq2_TPM_values.txt', "ReadRowNames",true);
 fpkm = table2array(data);
 rownames = data.Properties.RowNames;
